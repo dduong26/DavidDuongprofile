@@ -21,8 +21,8 @@ module:
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
-DefaultContentLanguage: en
-DefaultContentLanguageInSubdir: true
+#DefaultContentLanguage: en
+#DefaultContentLanguageInSubdir: true
 
 # Allow raw html in markdown file
 markup:
@@ -52,10 +52,6 @@ params:
 
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
-  logo:
-    main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
-    favicon: /images/site/favicon.png
 
   # GitHub repo of your site
   gitRepo: https://github.com/dduong26/DavidDuongprofile
@@ -88,15 +84,15 @@ params:
 
     # Enable and configure blog posts
     blog:
-      enable: true
+      enable: false
       # Share post on different social media
       shareButtons:
-        facebook: true
-        twitter: true
-        linkedin: true
-        reddit: true
-        whatsapp: true
-        email: true
+        facebook: false
+        twitter: false
+        linkedin: false
+        reddit: false
+        whatsapp: false
+        email: false
         # tumblr: true
         # pocket: true
         # diaspora: true
@@ -104,7 +100,7 @@ params:
 
     # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false
 
     # Enable comment feature. There, should be only one of them.
     comment:
@@ -175,7 +171,7 @@ params:
 
     # specify whether you want to show Table of Contents in reading page
     toc:
-      enable: true
+      enable: false
 
     # Show tags under the post title
     tags:
@@ -184,7 +180,7 @@ params:
 
     # Specify whether to show flag in the language selector. Default is true.
     flags:
-      enable: true
+      enable: false
       # # If you want to use different country flag for a language, specify them here.
       # flagOverwrites:
       #   - languageCode: en
@@ -236,7 +232,7 @@ params:
     #   codeFences: false
     # ```
     syntaxHighlight:
-      enable: true
+      enable: false
       services:
         hljs:
           # see: https://highlightjs.readthedocs.io/en/latest/api.html#configure
@@ -244,7 +240,7 @@ params:
 
     # Enable to use `video-player` shortcode
     videoPlayer:
-      enable: true
+      enable: false
       services:
         # convert .js-player class into video player via https://plyr.io/
         # Can play HTML5 Video, Audio, Youtube, Vimeo.
@@ -285,4 +281,4 @@ params:
 
     # Show/hide disclaimer notice in the footer. Default is "false".
     disclaimer:
-      enable: true
+      enable: false
