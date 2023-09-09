@@ -1,4 +1,4 @@
-module github.com/dduong26/DavidDuongprofile
+module github.com/dduong26/awsmastery
 
 go 1.19
 
