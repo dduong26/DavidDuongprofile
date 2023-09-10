@@ -2,9 +2,9 @@
 section:
   name: Skills
   id: skills
-  enable: true
+  enable: false
   weight: 3
-  showOnNavbar: true
+  showOnNavbar: false
   # Can optionally hide the title in sections
   # hideTitle: true
 
@@ -23,7 +23,7 @@ skills:
 
 - name: Cloud Computing
   logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+  summary: "Worked with major clouds such as GCP and AWS"
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
